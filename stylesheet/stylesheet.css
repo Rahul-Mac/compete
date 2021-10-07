@@ -1,0 +1,279 @@
+
+.prpic{ 	
+	margin-left: 44% ;
+	margin-top: 2%;
+	width: 11%;
+	height: 50%;
+	border-radius:50%;
+}
+
+
+body{
+	 background: white;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:16px;
+}
+#frm{
+	margin-top:100px;
+	margin-left:300px;
+	width:380px;
+	border: 1px solid #ebebeb;
+	background-color:#ebebeb;
+	padding: 10px 10px 20px 10px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+#btn{
+	background-color: white;
+  	border: 1px solid #2088e8;
+  	font-weight: bold;
+	color: black;
+	font-size: 16px;
+	float:left;
+	padding: 7px;
+	display: inline;
+	border-radius: 4px;
+	outline: none;
+}
+#btn:hover
+{
+	background-color: #2088e8;
+  	border: 1px solid white;
+  	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	float:left;
+	padding: 7px;
+	display: inline;
+	border-radius: 4px;
+}
+
+.header 
+{
+  	background-color:#ebebeb;
+	padding: 15px;
+	box-shadow: 5px 5px 5px #aaaaaa;
+	top:0;
+	margin-left:-8px;
+	width:98.5%;
+	position: fixed;
+}
+.header a:hover.logo 
+{
+	color: white;
+		background-image: linear-gradient(-50deg, #2088e8, #a1e0ff);
+		border-radius: 4px;
+		padding:10px;
+		text-decoration: none;
+}
+.header a.logo 
+{
+  	font-size: 30px;
+  	font-weight: bold;
+	color: white;
+	border-radius: 4px;
+	background-image: linear-gradient(-5deg, #2088e8, #a1e0ff);
+	padding:10px;
+	text-decoration: none;
+}
+a {text-decoration: outline;} 
+a:link {
+  color:#a1e0ff;
+}
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: #2088e8;
+}
+.header button.btn 
+{
+	background-color: white;
+  	border: 1px solid #2088e8;
+  	font-weight: bold;
+	color: black;
+	font-size: 16px;
+	float:right;
+	padding: 7px;
+	display: inline;
+	border-radius: 4px;
+	outline: none;
+
+}
+.header button.btn:hover 
+{
+	background-color: #2088e8;
+  	border: 1px solid white;
+  	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	float:right;
+	padding: 7px;
+	display: inline;
+	border-radius: 4px;
+}
+
+
+.error {color: #FF0000;}
+
+
+
+
+input[type=text] {
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 3px solid #a1e0ff;
+  outline: none;
+  width: 100%;
+  padding:6px;
+  height:50px;
+  font-size: 24px;
+}
+
+input[type=text]:focus {
+  width: 100%;
+  padding:6px;
+  border: 3px solid #2088e8;
+  height:50px;
+  font-size: 24px;
+}
+
+input[type=password] 
+{
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 3px solid #a1e0ff;
+  outline: none;
+  width: 100%;
+  padding:6px;
+  height:50px;
+  font-size: 24px;
+}
+
+input[type=password]:focus {
+  width: 100%;
+  padding:6px;
+  border: 3px solid #2088e8;
+  height:50px;
+  font-size: 24px;
+}
+
+
+select {
+  width: 100%;
+  padding:6px;
+  border: 3px solid #a1e0ff;
+  height:50px;
+  font-size: 24px;
+
+}
+select:focus {
+  width: 100%;
+  padding:6px;
+  border: 3px solid #2088e8;
+  height:50px;
+  font-size: 24px;
+}
+
+option 
+{
+width: 100%;
+  padding:6px;
+  border: 3px solid #2088e8;
+  height:50px;
+  font-size: 24px;
+}
+.mytl
+{
+padding:15px;	
+background-color: #2088e8;
+}
+#sh{  background-image: url('shown.svg');
+background-position: right; 
+cursor: pointer;
+  background-repeat: no-repeat ;
+  }
+  
+  
+.boxes
+{
+	margin-top:150px;
+	margin-left:300px;
+	width:380px;
+	border: 1px solid #BFBFBF;
+	padding: 10px 10px 20px 10px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	display : none;
+}
+
+i {
+ border: 3px solid #2088e8 ;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+}
+i:hover{
+ border: 3px solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.arr
+{
+	margin-left:250px;
+}
+.arbt{
+border-radius: 50%;
+	background-color: white;
+  	border: 3px solid #2088e8;
+	padding:12px;
+	border: none;
+	outline: none;
+}
+.arbt:hover{
+border-radius: 50%;
+	background-color: #2088e8;
+  	border: 3px solid white;
+	padding:12px;
+	border: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+
+
+img:hover{/*
+		-moz-box-shadow: 0 0 20px  #000080;
+		-webkit-box-shadow: 0 0 20px  #000080;
+		box-shadow: 0 0 20px  #000080;*/
+		opacity: 0.3;
+	}
+	.text{
+	width:50px;
+	height:50px;
+	background:#FFF;
+	opacity:0;
+}
